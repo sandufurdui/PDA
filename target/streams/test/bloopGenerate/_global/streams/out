@@ -1,0 +1,4 @@
+[debug] [pad-test] Classpath dependencies List()
+[debug] [pad-test] Dependencies from configurations List(pad)
+[debug] Bloop wrote the configuration of project 'pad-test' to '/Users/sandu/Desktop/Github/pad/.bloop/pad-test.json'
+[success] Generated .bloop/pad-test.json

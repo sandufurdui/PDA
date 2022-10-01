@@ -1,0 +1,152 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "pad",
+        "directory": "/Users/sandu/Desktop/Github/pad",
+        "workspaceDir": "/Users/sandu/Desktop/Github/pad",
+        "sources": [
+            "/Users/sandu/Desktop/Github/pad/src/main/scala",
+            "/Users/sandu/Desktop/Github/pad/src/main/scala-2.12",
+            "/Users/sandu/Desktop/Github/pad/src/main/scala-2",
+            "/Users/sandu/Desktop/Github/pad/src/main/java",
+            "/Users/sandu/Desktop/Github/pad/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/sandu/.sbt/boot/scala-2.12.16/lib/scala-library.jar"
+        ],
+        "out": "/Users/sandu/Desktop/Github/pad/.bloop/pad",
+        "classesDir": "/Users/sandu/Desktop/Github/pad/.bloop/pad/scala-2.12/classes",
+        "resources": [
+            "/Users/sandu/Desktop/Github/pad/src/main/resources",
+            "/Users/sandu/Desktop/Github/pad/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.16",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/sandu/.sbt/boot/scala-2.12.16/lib/scala-library.jar",
+                "/Users/sandu/.sbt/boot/scala-2.12.16/lib/scala-compiler.jar",
+                "/Users/sandu/.sbt/boot/scala-2.12.16/lib/jline.jar",
+                "/Users/sandu/.sbt/boot/scala-2.12.16/lib/scala-reflect.jar",
+                "/Users/sandu/.sbt/boot/scala-2.12.16/lib/scala-xml_2.12.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/sandu/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/sandu/Desktop/Github/pad"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/sandu/.sbt/boot/scala-2.12.16/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.16",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/sandu/.sbt/boot/scala-2.12.16/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
