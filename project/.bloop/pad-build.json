@@ -198,7 +198,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Users/sandu/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/sandu/Desktop/Github/pad/project"
                 ]

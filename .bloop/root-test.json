@@ -1,0 +1,2124 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "/Users/sandu/Desktop/Github/pad",
+        "workspaceDir": "/Users/sandu/Desktop/Github/pad",
+        "sources": [
+            "/Users/sandu/Desktop/Github/pad/src/test/scala",
+            "/Users/sandu/Desktop/Github/pad/src/test/scala-2.13",
+            "/Users/sandu/Desktop/Github/pad/src/test/scala-2",
+            "/Users/sandu/Desktop/Github/pad/src/test/java",
+            "/Users/sandu/Desktop/Github/pad/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "/Users/sandu/Desktop/Github/pad/.bloop/root/scala-2.13/classes",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-sse_2.13/2.0.2/akka-stream-alpakka-sse_2.13-2.0.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.18/akka-stream_2.13-2.6.18.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.1.11/akka-http_2.13-10.1.11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/0.9.5/upickle_2.13-0.9.5.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.13/4.2.2/mongo-scala-driver_2.13-4.2.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.18/akka-actor-typed_2.13-2.6.18.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.4.3/lift-json_2.13-3.4.3.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.13/3.7.0-M11/json4s-jackson_2.13-3.7.0-M11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.9.2/play-json_2.13-2.9.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/firebase/firebase-server-sdk/3.0.3/firebase-server-sdk-3.0.3.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-http_2.13/22.4.0/finagle-http_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.18/akka-actor_2.13-2.6.18.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.18/akka-protobuf-v3_2.13-2.6.18.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.9.5/ujson_2.13-0.9.5.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/0.9.5/upack_2.13-0.9.5.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/0.9.5/upickle-implicits_2.13-0.9.5.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.13/4.2.2/mongo-scala-bson_2.13-4.2.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-reactivestreams/4.2.2/mongodb-driver-reactivestreams-4.2.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.18/akka-slf4j_2.13-2.6.18.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.7.0-M11/json4s-core_2.13-3.7.0-M11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.2/jackson-databind-2.13.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.9.2/play-functional_2.13-2.9.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.5/jackson-datatype-jsr310-2.10.5.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client-gson/1.21.0/google-api-client-gson-1.21.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json/json/20160212/json-20160212.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.21.0/google-http-client-gson-1.21.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-base-http_2.13/22.4.0/finagle-base-http_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-netty4-http_2.13/22.4.0/finagle-netty4-http_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-http2_2.13/22.4.0/finagle-http2_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-toggle_2.13/22.4.0/finagle-toggle_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.4.4/scala-collection-compat_2.13-2.4.4.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-codec_2.13/22.4.0/util-codec_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-logging_2.13/22.4.0/util-logging_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/2.0.46.Final/netty-tcnative-boringssl-static-2.0.46.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/0.9.5/upickle-core_2.13-0.9.5.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/bson/4.2.2/bson-4.2.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/4.2.2/mongodb-driver-core-4.2.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.2.22.RELEASE/reactor-core-3.2.22.RELEASE.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.7.0-M11/json4s-ast_2.13-3.7.0-M11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.7.0-M11/json4s-scalap_2.13-3.7.0-M11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client/1.21.0/google-api-client-1.21.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.21.0/google-http-client-1.21.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-core_2.13/22.4.0/finagle-core_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.73.Final/netty-codec-http-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.73.Final/netty-handler-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.73.Final/netty-transport-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.73.Final/netty-transport-native-epoll-4.1.73.Final-linux-x86_64.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.73.Final/netty-transport-native-epoll-4.1.73.Final-linux-aarch_64.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.73.Final/netty-transport-native-unix-common-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.73.Final/netty-handler-proxy-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-netty4_2.13/22.4.0/finagle-netty4_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-app_2.13/22.4.0/util-app_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-core_2.13/22.4.0/util-core_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-jvm_2.13/22.4.0/util-jvm_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-stats_2.13/22.4.0/util-stats_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.73.Final/netty-codec-http2-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-cache_2.13/22.4.0/util-cache_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.13.2/jackson-module-scala_2.13-2.13.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.4.2/geny_2.13-0.4.2.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.21.0/google-oauth-client-1.21.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.21.0/google-http-client-jackson2-1.21.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-init_2.13/22.4.0/finagle-init_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-hashing_2.13/22.4.0/util-hashing_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-lint_2.13/22.4.0/util-lint_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-registry_2.13/22.4.0/util-registry_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-routing_2.13/22.4.0/util-routing_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-security_2.13/22.4.0/util-security_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-tunable_2.13/22.4.0/util-tunable_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.73.Final/netty-common-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.73.Final/netty-buffer-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.73.Final/netty-codec-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.73.Final/netty-resolver-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.73.Final/netty-transport-classes-epoll-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.73.Final/netty-codec-socks-4.1.73.Final.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-app-lifecycle_2.13/22.4.0/util-app-lifecycle_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-function_2.13/22.4.0/util-function_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-slf4j-api_2.13/22.4.0/util-slf4j-api_2.13-22.4.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.jar",
+            "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar"
+        ],
+        "out": "/Users/sandu/Desktop/Github/pad/.bloop/root",
+        "classesDir": "/Users/sandu/Desktop/Github/pad/.bloop/root/scala-2.13/test-classes",
+        "resources": [
+            "/Users/sandu/Desktop/Github/pad/src/test/resources",
+            "/Users/sandu/Desktop/Github/pad/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.8",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+                "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar",
+                "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
+                "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/sandu/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/sandu/Desktop/Github/pad"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lightbend.akka",
+                    "name": "akka-stream-alpakka-sse_2.13",
+                    "version": "2.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream-alpakka-sse_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-sse_2.13/2.0.2/akka-stream-alpakka-sse_2.13-2.0.2.jar"
+                        },
+                        {
+                            "name": "akka-stream-alpakka-sse_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-sse_2.13/2.0.2/akka-stream-alpakka-sse_2.13-2.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.13",
+                    "version": "2.6.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.18/akka-stream_2.13-2.6.18.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.18/akka-stream_2.13-2.6.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http_2.13",
+                    "version": "10.1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.1.11/akka-http_2.13-10.1.11.jar"
+                        },
+                        {
+                            "name": "akka-http_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.1.11/akka-http_2.13-10.1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_2.13",
+                    "version": "0.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/0.9.5/upickle_2.13-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/0.9.5/upickle_2.13-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-driver_2.13",
+                    "version": "4.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongo-scala-driver_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.13/4.2.2/mongo-scala-driver_2.13-4.2.2.jar"
+                        },
+                        {
+                            "name": "mongo-scala-driver_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.13/4.2.2/mongo-scala-driver_2.13-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor-typed_2.13",
+                    "version": "2.6.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.18/akka-actor-typed_2.13-2.6.18.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.18/akka-actor-typed_2.13-2.6.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.liftweb",
+                    "name": "lift-json_2.13",
+                    "version": "3.4.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lift-json_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.4.3/lift-json_2.13-3.4.3.jar"
+                        },
+                        {
+                            "name": "lift-json_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.4.3/lift-json_2.13-3.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-jackson_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-jackson_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.13/3.7.0-M11/json4s-jackson_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-jackson_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.13/3.7.0-M11/json4s-jackson_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_2.13",
+                    "version": "2.9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-json_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.9.2/play-json_2.13-2.9.2.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.9.2/play-json_2.13-2.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.firebase",
+                    "name": "firebase-server-sdk",
+                    "version": "3.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "firebase-server-sdk",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/firebase/firebase-server-sdk/3.0.3/firebase-server-sdk-3.0.3.jar"
+                        },
+                        {
+                            "name": "firebase-server-sdk",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/firebase/firebase-server-sdk/3.0.3/firebase-server-sdk-3.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-http_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-http_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-http_2.13/22.4.0/finagle-http_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-http_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-http_2.13/22.4.0/finagle-http_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.6.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.18/akka-actor_2.13-2.6.18.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.18/akka-actor_2.13-2.6.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.13",
+                    "version": "2.6.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.18/akka-protobuf-v3_2.13-2.6.18.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.18/akka-protobuf-v3_2.13-2.6.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_2.13",
+                    "version": "10.1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.13",
+                    "version": "0.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.9.5/ujson_2.13-0.9.5.jar"
+                        },
+                        {
+                            "name": "ujson_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.9.5/ujson_2.13-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_2.13",
+                    "version": "0.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upack_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/0.9.5/upack_2.13-0.9.5.jar"
+                        },
+                        {
+                            "name": "upack_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/0.9.5/upack_2.13-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_2.13",
+                    "version": "0.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/0.9.5/upickle-implicits_2.13-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/0.9.5/upickle-implicits_2.13-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-bson_2.13",
+                    "version": "4.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongo-scala-bson_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.13/4.2.2/mongo-scala-bson_2.13-4.2.2.jar"
+                        },
+                        {
+                            "name": "mongo-scala-bson_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.13/4.2.2/mongo-scala-bson_2.13-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-reactivestreams",
+                    "version": "4.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-reactivestreams",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-reactivestreams/4.2.2/mongodb-driver-reactivestreams-4.2.2.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-reactivestreams",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-reactivestreams/4.2.2/mongodb-driver-reactivestreams-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_2.13",
+                    "version": "2.6.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.18/akka-slf4j_2.13-2.6.18.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.18/akka-slf4j_2.13-2.6.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.32",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scalap",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalap",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar"
+                        },
+                        {
+                            "name": "scalap",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-core_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-core_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.7.0-M11/json4s-core_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.7.0-M11/json4s-core_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.2/jackson-databind-2.13.2.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.2/jackson-databind-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_2.13",
+                    "version": "2.9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.9.2/play-functional_2.13-2.9.2.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.9.2/play-functional_2.13-2.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.5/jackson-datatype-jsr310-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.5/jackson-datatype-jsr310-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.api-client",
+                    "name": "google-api-client-gson",
+                    "version": "1.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-api-client-gson",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client-gson/1.21.0/google-api-client-gson-1.21.0.jar"
+                        },
+                        {
+                            "name": "google-api-client-gson",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client-gson/1.21.0/google-api-client-gson-1.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json",
+                    "name": "json",
+                    "version": "20160212",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json/json/20160212/json-20160212.jar"
+                        },
+                        {
+                            "name": "json",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json/json/20160212/json-20160212-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.http-client",
+                    "name": "google-http-client-gson",
+                    "version": "1.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-http-client-gson",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.21.0/google-http-client-gson-1.21.0.jar"
+                        },
+                        {
+                            "name": "google-http-client-gson",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.21.0/google-http-client-gson-1.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava-jdk5",
+                    "version": "17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava-jdk5",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar"
+                        },
+                        {
+                            "name": "guava-jdk5",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.6.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-base-http_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-base-http_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-base-http_2.13/22.4.0/finagle-base-http_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-base-http_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-base-http_2.13/22.4.0/finagle-base-http_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-netty4-http_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-netty4-http_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-netty4-http_2.13/22.4.0/finagle-netty4-http_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-netty4-http_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-netty4-http_2.13/22.4.0/finagle-netty4-http_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-http2_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-http2_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-http2_2.13/22.4.0/finagle-http2_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-http2_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-http2_2.13/22.4.0/finagle-http2_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-toggle_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-toggle_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-toggle_2.13/22.4.0/finagle-toggle_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-toggle_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-toggle_2.13/22.4.0/finagle-toggle_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.13",
+                    "version": "2.4.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.4.4/scala-collection-compat_2.13-2.4.4.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.4.4/scala-collection-compat_2.13-2.4.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-codec_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-codec_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-codec_2.13/22.4.0/util-codec_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-codec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-codec_2.13/22.4.0/util-codec_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-logging_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-logging_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-logging_2.13/22.4.0/util-logging_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-logging_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-logging_2.13/22.4.0/util-logging_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-tcnative-boringssl-static",
+                    "version": "2.0.46.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-tcnative-boringssl-static",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/2.0.46.Final/netty-tcnative-boringssl-static-2.0.46.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-parsing_2.13",
+                    "version": "10.1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-parsing_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.13",
+                    "version": "0.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/0.9.5/upickle-core_2.13-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/0.9.5/upickle-core_2.13-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "bson",
+                    "version": "4.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bson",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/bson/4.2.2/bson-4.2.2.jar"
+                        },
+                        {
+                            "name": "bson",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/bson/4.2.2/bson-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-core",
+                    "version": "4.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-core",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/4.2.2/mongodb-driver-core-4.2.2.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-core",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/4.2.2/mongodb-driver-core-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.projectreactor",
+                    "name": "reactor-core",
+                    "version": "3.2.22.RELEASE",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactor-core",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.2.22.RELEASE/reactor-core-3.2.22.RELEASE.jar"
+                        },
+                        {
+                            "name": "reactor-core",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.2.22.RELEASE/reactor-core-3.2.22.RELEASE-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-ast_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-ast_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.7.0-M11/json4s-ast_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-ast_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.7.0-M11/json4s-ast_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-scalap_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-scalap_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.7.0-M11/json4s-scalap_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-scalap_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.7.0-M11/json4s-scalap_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.api-client",
+                    "name": "google-api-client",
+                    "version": "1.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-api-client",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client/1.21.0/google-api-client-1.21.0.jar"
+                        },
+                        {
+                            "name": "google-api-client",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client/1.21.0/google-api-client-1.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.http-client",
+                    "name": "google-http-client",
+                    "version": "1.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-http-client",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.21.0/google-http-client-1.21.0.jar"
+                        },
+                        {
+                            "name": "google-http-client",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.21.0/google-http-client-1.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-core_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-core_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-core_2.13/22.4.0/finagle-core_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-core_2.13/22.4.0/finagle-core_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.73.Final/netty-codec-http-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.73.Final/netty-codec-http-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.73.Final/netty-handler-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.73.Final/netty-handler-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.73.Final/netty-transport-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.73.Final/netty-transport-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.73.Final/netty-transport-native-unix-common-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.73.Final/netty-transport-native-unix-common-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.73.Final/netty-handler-proxy-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.73.Final/netty-handler-proxy-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.luben",
+                    "name": "zstd-jni",
+                    "version": "1.5.2-1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zstd-jni",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-netty4_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-netty4_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-netty4_2.13/22.4.0/finagle-netty4_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-netty4_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-netty4_2.13/22.4.0/finagle-netty4_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-app_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-app_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-app_2.13/22.4.0/util-app_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-app_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-app_2.13/22.4.0/util-app_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-core_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-core_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-core_2.13/22.4.0/util-core_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-core_2.13/22.4.0/util-core_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-jvm_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-jvm_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-jvm_2.13/22.4.0/util-jvm_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-jvm_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-jvm_2.13/22.4.0/util-jvm_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-stats_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-stats_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-stats_2.13/22.4.0/util-stats_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-stats_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-stats_2.13/22.4.0/util-stats_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http2",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http2",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.73.Final/netty-codec-http2-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http2",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.73.Final/netty-codec-http2-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-cache_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-cache_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-cache_2.13/22.4.0/util-cache_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-cache_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-cache_2.13/22.4.0/util-cache_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-scala_2.13",
+                    "version": "2.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.13.2/jackson-module-scala_2.13-2.13.2.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.13.2/jackson-module-scala_2.13-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-tcnative-classes",
+                    "version": "2.0.46.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-tcnative-classes",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar"
+                        },
+                        {
+                            "name": "netty-tcnative-classes",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "0.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.4.2/geny_2.13-0.4.2.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.4.2/geny_2.13-0.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jline",
+                    "name": "jline",
+                    "version": "3.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jline",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "5.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.oauth-client",
+                    "name": "google-oauth-client",
+                    "version": "1.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-oauth-client",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.21.0/google-oauth-client-1.21.0.jar"
+                        },
+                        {
+                            "name": "google-oauth-client",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.21.0/google-oauth-client-1.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.http-client",
+                    "name": "google-http-client-jackson2",
+                    "version": "1.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-http-client-jackson2",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.21.0/google-http-client-jackson2-1.21.0.jar"
+                        },
+                        {
+                            "name": "google-http-client-jackson2",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.21.0/google-http-client-jackson2-1.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "2.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "finagle-init_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "finagle-init_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-init_2.13/22.4.0/finagle-init_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "finagle-init_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/finagle-init_2.13/22.4.0/finagle-init_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-hashing_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-hashing_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-hashing_2.13/22.4.0/util-hashing_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-hashing_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-hashing_2.13/22.4.0/util-hashing_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-lint_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-lint_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-lint_2.13/22.4.0/util-lint_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-lint_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-lint_2.13/22.4.0/util-lint_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-registry_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-registry_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-registry_2.13/22.4.0/util-registry_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-registry_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-registry_2.13/22.4.0/util-registry_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-routing_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-routing_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-routing_2.13/22.4.0/util-routing_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-routing_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-routing_2.13/22.4.0/util-routing_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-security_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-security_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-security_2.13/22.4.0/util-security_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-security_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-security_2.13/22.4.0/util-security_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-tunable_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-tunable_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-tunable_2.13/22.4.0/util-tunable_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-tunable_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-tunable_2.13/22.4.0/util-tunable_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "caffeine",
+                    "version": "2.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar"
+                        },
+                        {
+                            "name": "caffeine",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hdrhistogram",
+                    "name": "HdrHistogram",
+                    "version": "2.1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "HdrHistogram",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11.jar"
+                        },
+                        {
+                            "name": "HdrHistogram",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.73.Final/netty-common-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.73.Final/netty-common-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.73.Final/netty-buffer-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.73.Final/netty-buffer-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.73.Final/netty-codec-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.73.Final/netty-codec-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.73.Final/netty-resolver-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.73.Final/netty-resolver-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-epoll",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.73.Final/netty-transport-classes-epoll-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.73.Final/netty-transport-classes-epoll-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.73.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.73.Final/netty-codec-socks-4.1.73.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.73.Final/netty-codec-socks-4.1.73.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-app-lifecycle_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-app-lifecycle_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-app-lifecycle_2.13/22.4.0/util-app-lifecycle_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-app-lifecycle_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-app-lifecycle_2.13/22.4.0/util-app-lifecycle_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-function_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-function_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-function_2.13/22.4.0/util-function_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-function_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-function_2.13/22.4.0/util-function_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "util-slf4j-api_2.13",
+                    "version": "22.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "util-slf4j-api_2.13",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-slf4j-api_2.13/22.4.0/util-slf4j-api_2.13-22.4.0.jar"
+                        },
+                        {
+                            "name": "util-slf4j-api_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/util-slf4j-api_2.13/22.4.0/util-slf4j-api_2.13-22.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "1.24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snakeyaml",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar"
+                        },
+                        {
+                            "name": "snakeyaml",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.19.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.8",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/sandu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

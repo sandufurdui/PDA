@@ -1,4 +1,4 @@
-[debug] [pad-build] Classpath dependencies List()
-[debug] [pad-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'pad-build' to '/Users/sandu/Desktop/Github/pad/project/.bloop/pad-build.json'
-[success] Generated .bloop/pad-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[pad-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[pad-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'pad-build' to '/Users/sandu/Desktop/Github/pad/project/.bloop/pad-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/pad-build.json[0m
