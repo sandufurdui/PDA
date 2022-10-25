@@ -2,33 +2,59 @@ import socket
 import json
 import random
 from time import sleep
+from temp import GATEWAY_PORT_OUT, GATEWAY_PORT_IN
 
-gateway_wall = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-wall_gateway = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+gateway_out_cache = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+gateway_out_wall = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+gateway_in = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 DESTINATION_ADDR = 'localhost'
-SOURCE_PORT_IN = 5011
-SOURCE_PORT_OUT= 5012
+gateway_in.bind((DESTINATION_ADDR, GATEWAY_PORT_IN))
+gateway_in.listen(1)
 
-wall_gateway.bind((DESTINATION_ADDR, SOURCE_PORT_IN))
-wall_gateway.listen(1)
-conn, addr = wall_gateway.accept()
-data = conn.recv(1024)
-resp_json = json.loads(data.decode())
-print("messge from ", resp_json["source"] , resp_json)
+while True:
+  conn111, addr111 = gateway_in.accept()
 
-while int(resp_json["wall_in"]) != resp_json["wall_in"]:
-    sleep.time(0.5)
+  data = conn111.recv(1024)
+  resp_json = json.loads(data.decode())
+  print("messge from ", resp_json["source"] , resp_json)
+
+  while int(resp_json["in"]) != resp_json["in"]:
+      sleep.time(0.5)
+
+  try:
+    k = gateway_out_wall.sendall(b"ping")
+    print("ddd   " + k)
+  except:
+    print('lol')
 
 
-print("less go")
-print(int(resp_json['wall_in']))
-print(resp_json['wall_in'])
-gateway_wall.connect((DESTINATION_ADDR, int(resp_json['wall_in'])))
-init_schema = {
-  "source" : "gateway", 
-  "destination" : "wall", 
-  "cache" : True,
-}
 
-jsn = json.dumps(init_schema)
-gateway_wall.sendall((jsn).encode())
+
+
+  if resp_json["source"] == 'wall':
+    print("wall")
+    gateway_out_wall.connect((DESTINATION_ADDR, int(resp_json['in'])))
+    init_schema = {
+    "source" : "gateway", 
+    "destination" : resp_json['source']
+    }
+
+    jsn = json.dumps(init_schema)
+    gateway_out_wall.sendall((jsn).encode())
+    # gateway_out_wall.shutdown(1)
+  else:
+    print("urmom")
+
+  # if resp_json["source"] == 'cache':
+  #   print("wall")
+  #   gateway_out_cache.connect((DESTINATION_ADDR, int(resp_json['in'])))
+  #   init_schema = {
+  #   "source" : "gateway", 
+  #   "destination" : resp_json['source']
+  #   }
+
+  #   jsn = json.dumps(init_schema)
+  #   gateway_out_cache.sendall((jsn).encode())
+  #   # gateway_out_cache.shutdown(1)
+  # else:
+  #   print("urmom")
