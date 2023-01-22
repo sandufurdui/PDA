@@ -22,7 +22,8 @@ wall_gateway.sendall((jsn).encode())
 
 gateway_wall.bind(('localhost', SOURCE_PORT_IN))
 gateway_wall.listen(1)
-conn, addr = gateway_wall.accept()
-data = conn.recv(1024)
-resp_json = json.loads(data.decode())
-print("messge from ", resp_json["source"] , resp_json)
+while True:
+  conn, addr = gateway_wall.accept()
+  data = conn.recv(1024)
+  resp_json = json.loads(data.decode())
+  print("messge from ", resp_json["source"] , resp_json)

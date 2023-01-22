@@ -1,0 +1,39 @@
+services:
+  service-gateway:
+    build:
+      context: service-gateway
+    ports:
+      - "8080:8080"
+
+  service-cache:
+    build:
+      context: service-cache
+    ports:
+      - "9999:9999"
+    depends_on:
+      - service-gateway
+
+  service-wall:
+    build:
+      context: service-wall
+    ports:
+      - "65534:65534"
+    depends_on:
+      - service-gateway
+
+  service-db:
+    build:
+      context: service-db
+    ports:
+      - "65533:65533"
+    depends_on:
+      - service-gateway
+
+  service-profanity:
+    build:
+      context: service-profanity
+    ports:
+      - "5555:5555"
+    depends_on:
+      - service-gateway
+
